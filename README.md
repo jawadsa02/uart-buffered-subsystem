@@ -9,6 +9,7 @@
 ![E2E](https://img.shields.io/badge/End--to--end-12%20bytes%20PASS-2ECC71?style=flat-square)
 ![Synth](https://img.shields.io/badge/Yosys-1138%20cells-3498DB?style=flat-square)
 ![Reuse](https://img.shields.io/badge/Composes-3%20verified%20IP%20blocks-8957e5?style=flat-square)
+![RTL CI](https://github.com/jawadsa02/uart-buffered-subsystem/actions/workflows/ci.yml/badge.svg)
 
 </div>
 
