@@ -20,9 +20,9 @@ A register-buffered UART built by **composing three blocks that are each verifie
 
 | Block | Role here | Verified in |
 |---|---|---|
-| [`uart_tx`](https://github.com/USERNAME/dlx-fpga-resa-bringup) | serializes bytes onto the line | formal + simulation |
-| [`uart_rx`](https://github.com/USERNAME/dlx-fpga-resa-bringup) | deserializes the line into bytes | formal + simulation |
-| [`sync_fifo`](https://github.com/USERNAME/sync-fifo-verified) | TX and RX buffering (×2) | **formally proven** + simulation |
+| [`uart_tx`](https://github.com/jawadsa02/dlx-fpga-resa-bringup) | serializes bytes onto the line | formal + simulation |
+| [`uart_rx`](https://github.com/jawadsa02/dlx-fpga-resa-bringup) | deserializes the line into bytes | formal + simulation |
+| [`sync_fifo`](https://github.com/jawadsa02/sync-fifo-verified) | TX and RX buffering (×2) | **formally proven** + simulation |
 
 This is the difference between a student who writes modules and an engineer who builds **subsystems**: reusing trusted IP, defining clean interfaces, and handling flow control and buffering at the boundaries.
 
