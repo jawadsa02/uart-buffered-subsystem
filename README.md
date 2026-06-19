@@ -18,7 +18,7 @@ A register-buffered UART built from three blocks that were each verified separat
 
 Writing individual modules is one skill. Wiring them into a subsystem with correct flow control is another.
 
-This repo takes `uart_tx` and `uart_rx` from the [DLX bring-up project](https://github.com/jawadsa02/dlx-fpga-resa-bringup) and two instances of the [formally verified FIFO](https://github.com/jawadsa02/sync-fifo-verified), then adds the glue logic: automatic TX loading, RX capture, occupancy counters, and overrun detection.
+This repo takes `uart_tx` and `uart_rx` from the [DLX bring-up project](https://github.com/jawadsa02/dlx-fpga-resa-bringup) and two instances of the [formally verified FIFO](https://github.com/jawadsa02/sync-fifo-verified), then adds the glue logic: automatic TX loading, RX capture, occupancy counters, and overrun detection. For the scoreboard + coverage checking pattern in isolation, see [ai-verification-copilot](https://github.com/jawadsa02/ai-verification-copilot).
 
 | Block | Role | Verified in |
 |---|---|---|
